@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelme</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="Images/kelme-logo-CF669272C2-seeklogo.com.png" rel="icon">
+    <meta name="author" content="Samrat">
+    <meta name="keywords" content="website,html,css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="page-header">
+        <button class="nav-button">
+            <i class="fa-solid fa-bars"></i>
+            <span class="button-text">Menu</span>
+        </button>
+        <a href="index.html">
+            <img class="logo" src="Images/4ac2557a19a19b7e7d5494844fc7b249.png_200x200.png" alt="Kelme logo">
+        </a>
+        <nav class="site-navigation">
+            <a href="index.html">Home</a>
+            <a href="teamwear.html">Teamwear</a>
+            <a href="keepers.html">Keepers</a>
+            <a href="footwears.html">Footwears</a>
+            <a href="order.html">Order</a>
+        </nav>
+    </header>
+    <main>
+        <form id="Order-form" method="post" action="https://example.com">
+            <h2>Your order</h2>
+            <label for="firstname">First Name</label>
+            <input class="input" type="text" id="firstname" placeholder="" name="first">
+            <label for="lastname">Last Name</label>
+            <input class="input" type="text" id="lastname" placeholder="" name="last">
+            <label for="email">Email Address</label>
+            <input class="input" type="email" id="email" placeholder="kelme@gmail.com" name="email">
+            <div class="radiobuttons">
+                <p>Do you want to receive more emails about our offers?</p>
+                <input type="radio" name="choice" id="yes" value="yes" checked>
+                <label for="yes">yes</label>
+                <input type="radio" name="choice" id="no" value="no">
+                <label for="no">no</label>
+            </div>
+            <label for="message">Write your orders</label>
+            <textarea rows="6" cols="60" class="input" name="message" id="message"
+                placeholder="Products name.."></textarea>
+            <div class="buttons">
+                <button type="reset">Cancel</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p class="copy-right">
+            Copyright &copy;, Kelme Sport
+        </p>
+        <a href="reference.txt">Refrences</a>
+        <div class="social-icons">
+            <a href="https://facebook.com" class="icon"><img src="Images/facebook 2.png" alt="Facebook"></a>
+            <a href="https://twitter.com" class="icon"><img src="Images/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com" class="icon"><img src="Images/R.jpg" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

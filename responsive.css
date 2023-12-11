@@ -1,0 +1,42 @@
+@media screen and (max-width: 400px) {
+    .logo {
+        width: 45px;
+    }
+
+    .site-navigation {
+        min-width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        max-height: 0vh;
+        overflow: hidden;
+        transition: max-height 1s;
+
+    }
+}
+
+.site-navigation a {
+    display: block;
+    min-width: 100%;
+}
+
+.site-navigation.open {
+    max-height: 50vh;
+}
+
+.card2 {
+    grid-column: span 1;
+}
+
+.page-header {
+    justify-content: space-between;
+}
+
+
+.content {
+    grid-template-columns: 1fr;
+}
+
+.nav-button {
+    display: block;
+    margin: 1px;
+}
